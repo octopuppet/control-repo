@@ -13,5 +13,5 @@ forge 'https://forge.puppet.com'
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
 mod 'apache',
-  git:    'https://github.com/puppetlabs/puppetlabs-apache',
+    :git => 'https://github.com/puppetlabs/puppetlabs-apache'
 #  branch: 'docs_experiment'
