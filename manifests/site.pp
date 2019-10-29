@@ -29,3 +29,11 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node client.tspi.local {
+	include role::webserver
+}
+
+node client2.tspi.local {
+	include role::webserver
+}
