@@ -1,3 +1,9 @@
 class profile::web {
-	include apache
+	
+	class { 'apache':
+		# this is where parameter definitions would go
+	}
 }
+
+
+	
