@@ -30,7 +30,7 @@ node default {
   #   class { 'my_class': }
 }
 
-node /^web\d+/.tspi.local {
+node /^web\d+\.tspi\.local$/ {
 	include role::webserver
 }
 
