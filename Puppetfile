@@ -12,14 +12,9 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
-#mod 'apache',
-#    :git => 'https://github.com/puppetlabs/puppetlabs-apache'
+mod 'apache',
+    :git => 'https://github.com/puppetlabs/puppetlabs-apache'
 #  branch: 'docs_experiment'
 #
 mod 'puppetlabs-stdlib', '6.1.0'
 mod 'puppetlabs-concat', '6.1.0'
-<<<<<<< HEAD
-mod 'puppetlabs-firewall', '2.1.0'
-mod 'puppetlabs-translate', '2.0.0'
-=======
->>>>>>> parent of a3e71a2... added firewall
