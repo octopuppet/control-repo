@@ -4,11 +4,11 @@ class profile::web {
 		# this is where parameter definitions would go
 		default_mods => true,
 	}
-	class { 'firewall':
-		dport  => [80, 443],
-		proto  => tcp,
-		action => accept,
-	}
+    firewall { '100 allow http and https access':
+        dport  => [80, 443],
+        proto  => tcp,
+        action => accept,
+    }
 }
 
 
