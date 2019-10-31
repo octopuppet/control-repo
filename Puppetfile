@@ -18,5 +18,8 @@ forge 'https://forge.puppet.com'
 #
 mod 'puppetlabs-stdlib', '6.1.0'
 mod 'puppetlabs-concat', '6.1.0'
+<<<<<<< HEAD
 mod 'puppetlabs-firewall', '2.1.0'
 mod 'puppetlabs-translate', '2.0.0'
+=======
+>>>>>>> parent of a3e71a2... added firewall

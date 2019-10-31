@@ -1,4 +1,13 @@
 class profile::web {
+<<<<<<< HEAD
+=======
+	
+	class { 'apache':
+		# this is where parameter definitions would go
+		default_mods => true,
+	}
+}
+>>>>>>> parent of a3e71a2... added firewall
 
     firewall { '100 allow httpd':
         chain   => 'INPUT',
