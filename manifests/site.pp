@@ -34,3 +34,7 @@ node /^web\d+\.tspi\.local$/ {
 	include role::webserver
 }
 
+node devx-db.tspi.local {
+    include role::webserver
+}
+
