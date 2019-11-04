@@ -38,17 +38,3 @@ node devx-db.tspi.local {
     include role::webserver
 }
 
-resources { 'firewall':
-    purge => true,
-}
-
-Firewall {
-    before  => Class['my_firewall::post'],
-    require => Class['my_firewall::pre'],
-}
-
-class { ['my_firewall::pre', 'my_firewall::post']: }
-
-class { 'firewall': }
-
-
